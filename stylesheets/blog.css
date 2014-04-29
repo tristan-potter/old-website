@@ -1,0 +1,73 @@
+/* Tristan Potter, 2013
+** This file is the style-sheet for my website at http://csclub.uwaterloo.ca/~twmpotte/blog
+** I used the free open source font Exo found at: http://www.google.com/fonts/specimen/Exo
+**     used under the SIL Open Font License, version 1.1 which can be viewed here: 
+**     http://scripts.sil.org/OFL
+*/
+
+/*      Blog Stuff      */
+/* Not in use
+div.post{
+    margin:0;
+    margin-right:10;
+    margin-bottom:20;
+    padding:0;
+    height:220;
+}*/
+
+.post-thumbnail{
+    padding:10;
+    float:left;
+    margin:0;
+    width:200;
+    height:200;
+}
+
+.title{
+    float:left;
+    display:block;
+    font-family:inherit;
+    font-weight:200;
+    font-size:1.2em;    
+    padding:0;
+    margin:0;
+}
+.date{
+    float:right;
+    display:block;
+}
+
+.post-body{
+    margin:20;
+    margin-left:230;
+    padding:0;
+    color: 98bf21;
+    /*color: white;*/
+    overflow:hidden;
+    max-height:180;
+}
+
+img.thumbnail{
+    padding:0;
+    margin:0;
+    width:200;
+    height:200;
+}
+
+a.post { 
+    display:block;
+    margin:5;
+    padding:0;
+    height:220;
+    
+}
+a.post:link,a.post:visited{
+    background-color:#454444;
+    display:block;
+    border:3px black solid;
+}
+
+a.post:hover,a.post:active{
+    //background-color:#000;
+    border-color:white;
+}
